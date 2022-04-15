@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2 Player Dice Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <div class="parent">
+        <h1>Welcome to the Dice Game !!!</h1>
+        <br><br>
+        <div class="intro">
+            <h4><a>How to play?</a></h4>
+            <!-- In this game, players take turns rolling a dice. Each roll is added to that player's total score. The first
+            player to cross the preset score wins. Good luck! -->
+            <ul>
+                <li>First set the Threshold value</li>
+                <li>Then Roll the Dice</li>
+                <li>First roll is for the first Player</li>
+                <li>Second roll is for the second Player</li>
+                <li>Each roll will be added to the Player's score</li>
+                <li>The one to cross the Threshold first Wins!!!</li>
+            </ul>
+        </div>
+        <br><br>
+        <table class="tbl">
+            <tr>
+                <td>Player 1:</td>
+                <td><input type="number" id="ply1" placeholder="Good Luck !!!"></td>
+            </tr>
+            <tr>
+                <td>Player 2:</td>
+                <td><input type="number" id="ply2" placeholder="Good Luck !!!"></td>
+            </tr>
+        </table>
+        <br>
+        <button id="btn" label="Roll Dice" onclick=rollDice()>Roll Dice</button>
+        <br><br>
+        <h1 id="result"></h1>
+    </div>
+</body>
+
+</html>

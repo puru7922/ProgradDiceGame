@@ -1,0 +1,41 @@
+.parent{
+    margin-top: 80px;
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(1, 211, 248);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 52, 68);
+}
+
+div{
+    font-size: large;
+}
+input{
+    border-radius: 20px;
+    width: 300px;
+    height: 30px;
+}
+tr{
+    display: flex;
+    align-items: center;
+    margin-left: 500px;
+}
+td{
+    width: 100px;
+    margin-right: 100px;
+}
+table{
+    font-size: x-large;
+    align-content: center;
+    width: 60%;
+}
+
+button{
+    background-color: rgb(0, 4, 5);
+    color: rgb(179, 217, 250);
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+.intro{
+    text-align: start;
+}
