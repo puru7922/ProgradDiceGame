@@ -12,11 +12,8 @@
     <script src="script.js"></script>
     <div class="parent">
         <h1>Welcome to the Dice Game !!!</h1>
-        <br><br>
         <div class="intro">
-            <h4><a>How to play?</a></h4>
-            <!-- In this game, players take turns rolling a dice. Each roll is added to that player's total score. The first
-            player to cross the preset score wins. Good luck! -->
+            <h4>How to play?</h4>
             <ul>
                 <li>First set the Threshold value</li>
                 <li>Then Roll the Dice</li>
@@ -26,7 +23,6 @@
                 <li>The one to cross the Threshold first Wins!!!</li>
             </ul>
         </div>
-        <br><br>
         <table class="tbl">
             <tr>
                 <td>Player 1:</td>
@@ -37,10 +33,10 @@
                 <td><input type="number" id="ply2" placeholder="Good Luck !!!"></td>
             </tr>
         </table>
-        <br>
-        <button id="btn" label="Roll Dice" onclick=rollDice()>Roll Dice</button>
-        <br><br>
-        <h1 id="result"></h1>
+        <div class="end">
+            <button id="btn" label="Roll Dice" onclick=rollDice()>Roll Dice</button>
+            <h1 id="result"></h1>
+        </div>
     </div>
 </body>
 
